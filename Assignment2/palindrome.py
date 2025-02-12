@@ -1,8 +1,13 @@
-# Inside file palindrome.py, 
-# create a function is_palindrome(s) that returns True only 
-# if the string s is a palindrome.
-# A string is a palindrome if it contains the same sequence of letters when read backwards. We make no difference between upper and lower case letters. Examples of palindromes are:
- 
+
+def only_small(k):
+
+    for i in range(32, 97):
+        k = k.replace(chr(i), '')
+    for i in range(123, 127):
+        k = k.replace(chr(i), '')
+
+    return k
+
 
 def palindrome(s):
     s = s.lower()
