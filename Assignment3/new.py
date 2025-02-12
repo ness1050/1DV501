@@ -40,9 +40,9 @@ def save_words(file_path, words):  # Funktion för att skriva över på en textf
     print("Saved {} words in file {}".format(len(words), file_path))
     return word_
 
-# Change to your specific Dir
-eng_file = "/1DV501/assignment_3/large_texts.txt/eng_news_100K-sentences.txt "
-holy_grail = "/1DV501/assignment_3/large_texts.txt/holy_grail.txt"
+
+eng_file = "/Users/XPS/Desktop/1DV501/assignment_3/large_texts.txt/eng_news_100K-sentences.txt "
+holy_grail = "/Users/XPS/Desktop/1DV501/assignment_3/large_texts.txt/holy_grail.txt"
 
 find_first =  get_words(read_file(eng_file))
 find_second = get_words(read_file(holy_grail))
