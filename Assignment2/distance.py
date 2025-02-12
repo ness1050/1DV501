@@ -1,4 +1,6 @@
-
+# Inside file distance
+# create a function distance(x1,y1,x2,y2) 
+# which computes the distance between two points x1,y1 and x2,y2
 
 def function():
     x1 = float(input("Enter first x1 coordinate number: "))
