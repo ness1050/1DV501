@@ -1,4 +1,3 @@
-# Write a program divisible.py
 # that prints all the numbers from 100 to 200, ten per line,
 # that are divisible by 4 or 5, but not both.
 # The numbers in a printed line are separated 

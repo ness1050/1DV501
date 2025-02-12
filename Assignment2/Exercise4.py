@@ -1,4 +1,4 @@
-# Write a program largest_k.py
+# Write a program largest_k
 # which for any given positive integer n (read from the keyboard) 
 # computes the largest integer k such that 0+2+4+6+8+...+k < n. 
 
